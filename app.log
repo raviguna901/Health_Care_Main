@@ -1,0 +1,139 @@
+2025-07-04 19:42:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-04 19:42:49 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 19:42:49 INFO:  * Restarting with stat
+2025-07-04 19:42:50 WARNING:  * Debugger is active!
+2025-07-04 19:42:50 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 19:43:18 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:18] "GET / HTTP/1.1" 200 -
+2025-07-04 19:43:18 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 19:43:25 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:25] "GET /register HTTP/1.1" 200 -
+2025-07-04 19:43:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:51] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-07-04 19:43:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:51] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-07-04 19:43:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:51] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-07-04 19:43:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:51] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=7Xf9b8QmOdcbyqgHeN5L HTTP/1.1" 200 -
+2025-07-04 19:43:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:43:51] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-04 19:46:42 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 19:46:42 INFO:  * Restarting with stat
+2025-07-04 19:47:56 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 19:47:56 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 19:47:56 INFO:  * Restarting with stat
+2025-07-04 19:47:57 WARNING:  * Debugger is active!
+2025-07-04 19:47:57 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 19:48:01 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:01] "GET / HTTP/1.1" 200 -
+2025-07-04 19:48:04 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:04] "GET /register HTTP/1.1" 200 -
+2025-07-04 19:48:26 INFO: User registered: DOCd0226
+2025-07-04 19:48:26 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-07-04 19:48:26 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:26] "GET /login HTTP/1.1" 200 -
+2025-07-04 19:48:45 INFO: Login success: DOCd0226 as doctor
+2025-07-04 19:48:45 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 19:48:45 INFO: 127.0.0.1 - - [04/Jul/2025 19:48:45] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 19:49:04 INFO: 127.0.0.1 - - [04/Jul/2025 19:49:04] "GET / HTTP/1.1" 200 -
+2025-07-04 19:49:05 INFO: 127.0.0.1 - - [04/Jul/2025 19:49:05] "GET /register HTTP/1.1" 200 -
+2025-07-04 19:50:31 INFO: User registered: PATa628b
+2025-07-04 19:50:31 INFO: 127.0.0.1 - - [04/Jul/2025 19:50:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-07-04 19:50:31 INFO: 127.0.0.1 - - [04/Jul/2025 19:50:31] "GET /login HTTP/1.1" 200 -
+2025-07-04 19:50:44 INFO: Login success: PATa628b as patient
+2025-07-04 19:50:44 INFO: 127.0.0.1 - - [04/Jul/2025 19:50:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 19:50:44 INFO: 127.0.0.1 - - [04/Jul/2025 19:50:44] "GET /patient_dashboard HTTP/1.1" 200 -
+2025-07-04 19:50:47 INFO: 127.0.0.1 - - [04/Jul/2025 19:50:47] "GET /book_appointment HTTP/1.1" 200 -
+2025-07-04 19:51:17 ERROR: Email failed to send: (334, b'UGFzc3dvcmQ6')
+2025-07-04 19:51:17 INFO: Appointment booked: {'appointment_id': '079ca304', 'patient_id': 'PATa628b', 'doctor_id': 'DOCd0226', 'date': '2025-07-05', 'time': '10:50', 'symptoms': 'heart pain', 'status': 'Pending', 'created_at': datetime.datetime(2025, 7, 4, 19, 51, 15, 492893)}
+2025-07-04 19:51:17 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:17] "[32mPOST /book_appointment HTTP/1.1[0m" 302 -
+2025-07-04 19:51:17 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:17] "GET /patient_dashboard HTTP/1.1" 200 -
+2025-07-04 19:51:37 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-04 19:51:37 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:37] "GET / HTTP/1.1" 200 -
+2025-07-04 19:51:41 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:41] "GET /login HTTP/1.1" 200 -
+2025-07-04 19:51:46 INFO: Login success: DOCd0226 as doctor
+2025-07-04 19:51:46 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 19:51:46 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:46] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 19:51:51 INFO: 127.0.0.1 - - [04/Jul/2025 19:51:51] "GET /appointment/079ca304 HTTP/1.1" 200 -
+2025-07-04 19:53:16 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:16] "[32mPOST /submit_diagnosis/079ca304 HTTP/1.1[0m" 302 -
+2025-07-04 19:53:16 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:16] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 19:53:25 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-04 19:53:25 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:25] "GET / HTTP/1.1" 200 -
+2025-07-04 19:53:26 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:26] "GET /login HTTP/1.1" 200 -
+2025-07-04 19:53:31 INFO: Login success: DOCd0226 as doctor
+2025-07-04 19:53:31 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 19:53:31 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:31] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 19:53:39 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-04 19:53:39 INFO: 127.0.0.1 - - [04/Jul/2025 19:53:39] "GET / HTTP/1.1" 200 -
+2025-07-04 20:12:36 INFO: 127.0.0.1 - - [04/Jul/2025 20:12:36] "GET / HTTP/1.1" 200 -
+2025-07-04 20:13:02 INFO: 127.0.0.1 - - [04/Jul/2025 20:13:02] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:16:11 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:16:11 INFO:  * Restarting with stat
+2025-07-04 20:16:12 WARNING:  * Debugger is active!
+2025-07-04 20:16:12 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:20:29 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:20:29 INFO:  * Restarting with stat
+2025-07-04 20:20:31 WARNING:  * Debugger is active!
+2025-07-04 20:20:31 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:20:34 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:20:34 INFO:  * Restarting with stat
+2025-07-04 20:20:35 WARNING:  * Debugger is active!
+2025-07-04 20:20:35 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:20:37 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-04 20:20:37 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 20:20:37 INFO:  * Restarting with stat
+2025-07-04 20:20:38 WARNING:  * Debugger is active!
+2025-07-04 20:20:38 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:20:51 INFO: 127.0.0.1 - - [04/Jul/2025 20:20:51] "GET / HTTP/1.1" 200 -
+2025-07-04 20:20:51 INFO: 127.0.0.1 - - [04/Jul/2025 20:20:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 20:20:53 INFO: 127.0.0.1 - - [04/Jul/2025 20:20:53] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:21:03 INFO: 127.0.0.1 - - [04/Jul/2025 20:21:03] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:21:27 WARNING: Login failed for email: guna@gmail.com
+2025-07-04 20:21:27 INFO: 127.0.0.1 - - [04/Jul/2025 20:21:27] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:21:30 INFO: 127.0.0.1 - - [04/Jul/2025 20:21:30] "GET /register HTTP/1.1" 200 -
+2025-07-04 20:22:02 INFO: User registered: PAT33b43
+2025-07-04 20:22:02 INFO: 127.0.0.1 - - [04/Jul/2025 20:22:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-07-04 20:22:02 INFO: 127.0.0.1 - - [04/Jul/2025 20:22:02] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:22:17 INFO: Login success: PAT33b43 as patient
+2025-07-04 20:22:17 INFO: 127.0.0.1 - - [04/Jul/2025 20:22:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 20:22:17 INFO: 127.0.0.1 - - [04/Jul/2025 20:22:17] "GET /patient_dashboard HTTP/1.1" 200 -
+2025-07-04 20:23:22 INFO: 127.0.0.1 - - [04/Jul/2025 20:23:22] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:23:23 INFO: 127.0.0.1 - - [04/Jul/2025 20:23:23] "GET / HTTP/1.1" 200 -
+2025-07-04 20:26:18 INFO: 127.0.0.1 - - [04/Jul/2025 20:26:18] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:28:05 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:28:05 INFO:  * Restarting with stat
+2025-07-04 20:28:05 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:28:05 INFO:  * Restarting with stat
+2025-07-04 20:33:36 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-04 20:33:36 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 20:33:36 INFO:  * Restarting with stat
+2025-07-04 20:33:37 WARNING:  * Debugger is active!
+2025-07-04 20:33:37 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:33:47 INFO: 127.0.0.1 - - [04/Jul/2025 20:33:47] "GET / HTTP/1.1" 200 -
+2025-07-04 20:35:37 INFO:  * Detected change in '/Users/raviguna/Downloads/HealthCare-main/app.py', reloading
+2025-07-04 20:35:37 INFO:  * Restarting with stat
+2025-07-04 20:58:42 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-04 20:58:42 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 20:58:42 INFO:  * Restarting with stat
+2025-07-04 20:58:43 WARNING:  * Debugger is active!
+2025-07-04 20:58:43 INFO:  * Debugger PIN: 817-935-207
+2025-07-04 20:58:50 INFO: 127.0.0.1 - - [04/Jul/2025 20:58:50] "GET / HTTP/1.1" 200 -
+2025-07-04 20:58:51 INFO: 127.0.0.1 - - [04/Jul/2025 20:58:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 20:58:53 INFO: 127.0.0.1 - - [04/Jul/2025 20:58:53] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:59:03 WARNING: Login failed for email: guna@gmail.com
+2025-07-04 20:59:03 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:03] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:59:08 WARNING: Login failed for email: guna@gmail.com
+2025-07-04 20:59:08 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:08] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:59:16 WARNING: Login failed for email: guna@gmail.com
+2025-07-04 20:59:16 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:16] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:59:38 WARNING: Login failed for email: ravikira901@gmail.com
+2025-07-04 20:59:38 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:38] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:59:42 WARNING: Login failed for email: guna@gmail.com
+2025-07-04 20:59:42 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:42] "POST /login HTTP/1.1" 200 -
+2025-07-04 20:59:47 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:47] "GET /login HTTP/1.1" 200 -
+2025-07-04 20:59:50 INFO: 127.0.0.1 - - [04/Jul/2025 20:59:50] "GET /register HTTP/1.1" 200 -
+2025-07-04 21:00:12 INFO: User registered: DOC7a076
+2025-07-04 21:00:12 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-07-04 21:00:12 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:12] "GET /login HTTP/1.1" 200 -
+2025-07-04 21:00:22 INFO: Login success: DOC7a076 as doctor
+2025-07-04 21:00:22 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 21:00:22 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:22] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 21:00:26 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-04 21:00:26 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:26] "GET / HTTP/1.1" 200 -
+2025-07-04 21:00:28 INFO: 127.0.0.1 - - [04/Jul/2025 21:00:28] "GET /register HTTP/1.1" 200 -
